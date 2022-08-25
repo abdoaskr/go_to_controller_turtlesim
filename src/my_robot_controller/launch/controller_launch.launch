@@ -1,0 +1,11 @@
+<launch>
+     
+     <rosparam command="load" file="$(find my_robot_controller)/config/yaml_file.yaml" />
+     
+     <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_controller_node" />
+     
+     <node pkg="my_robot_controller" type="go_to_controller.py" name="turtlesim_go_to_controller_node" />
+     
+     <node pkg="my_robot_controller" type="go_to_controller.py" name="turtlesim_go_to_controller_node2" />
+     
+</launch> 

@@ -1,0 +1,7 @@
+
+  dictionary: {
+    text: "enter x and y coordinates",
+    another_text: "press enter then ",
+    }
+  linear_velocity_constant_beta_initate : 0
+  ratation_constant_theta_intiate: 0  
